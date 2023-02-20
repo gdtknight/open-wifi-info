@@ -27,6 +27,7 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
   implementation("com.squareup.okhttp3:okhttp:4.10.0")
+  implementation group: 'com.squareup.moshi', name: 'moshi', version: '1.14.0'
 }
 
 tasks.named('test') {
